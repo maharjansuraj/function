@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<Title>OOP Object Practice</Title>
+		<script type="text/javascript">
+		"use strict";
+		
+		function Dog(breed, height){
+			this.type = breed;
+			this.height = height;
+			this.printHeight = function(){
+				console.log(this.height);
+			};
+		}
+		
+		const shibaInu = new Dog("Shiba Inu", 37);
+		shibaInu.printHeight();
+		
+		</script>
+		
+	</head>
+	<body>	
+		Javascript lecture-wise practice.
+	</body>
+</html>
